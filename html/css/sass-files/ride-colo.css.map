@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,kDAAkD;AAEjD,iEAA0C;EAAE,UAAU,EAAC,6DAA6D;EAAE,eAAe,EAAC,KAAK;AAE3I,sCAAe;EACd,GAAG,EAAC,KAAK;EAET,0BAA4B;IAH7B,sCAAe;MAGgB,GAAG,EAAC,KAAK;;AAKzC,0CAA0C;AAKtC,8EAAa;EAAE,WAAW,EAAC,GAAG;EAC7B,0BAA4B;IAD7B,8EAAa;MACkB,WAAW,EAAC,GAAG",
-"sources": ["../../sass/sass-files/ride-colo.scss"],
-"names": [],
-"file": "ride-colo.css"
-}

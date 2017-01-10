@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,0CAA0C;AAC1C,wBAAyB;EAAE,QAAQ,EAAC,QAAQ;EAE3C,kDAAkD;EAClD,2CAAmB;IAAE,OAAO,EAAC,KAAK;IAAE,UAAU,EAAC,yDAAyD;IAAE,eAAe,EAAC,KAAK;IAAE,MAAM,EAAC,KAAK;EAE7I,8CAAsB;IAAE,QAAQ,EAAC,QAAQ;IAAE,GAAG,EAAC,KAAK;IAAE,KAAK,EAAC,GAAG;IAAE,KAAK,EAAC,KAAK;IAAE,gBAAgB,EAAC,IAAI;IAAE,OAAO,EAAC,SAAS;;AAKvH,+CAA+C",
-"sources": ["../../sass/sass-files/aboutus-landingpage.scss"],
-"names": [],
-"file": "aboutus-landingpage.css"
-}

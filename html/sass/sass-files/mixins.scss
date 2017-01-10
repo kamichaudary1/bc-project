@@ -1,8 +1,0 @@
-@mixin border_radius($radius) {
-	-webkit-border-radius: $radius;
-	-moz-border-radius: $radius;
-	-ms-border-radius: $radius;
-	border-radius: $radius;
-}
-
-.para-text { color:#3f3f3f; font-size:16px; line-height:28px; margin-bottom:30px; font-weight:$font_weightlarge; }

@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,kDAAkD;AAClD,2BAA4B;EAAE,OAAO,EAAC,KAAK;EAAE,UAAU,EAAC,+DAA+D;EAAE,eAAe,EAAC,KAAK;EAAE,MAAM,EAAC,KAAK;;AAG5J,kDAAkD",
-"sources": ["../../sass/sass-files/blog-static-detail-page.scss"],
-"names": [],
-"file": "blog-static-detail-page.css"
-}
