@@ -1,0 +1,235 @@
+/* banner starts here ----------------- */
+.banner.events-banner { position:relative;
+	span.slide-one { background:url(../images/events-hero-img.png) center center no-repeat; background-size:cover; height:762px; 
+		@media ( max-width:$break_Mobilemedium ) { height:400px; }
+	}
+	
+	.left.carousel-control, .right.carousel-control { top:45%; background:transparent; opacity:1; width:5%; height:42px; 
+		@media ( max-width:$break_Mobilelarge ) { display:none; }
+	}
+
+	/* info box ----------------------------- */
+	.info-box { position:absolute; top:75px; right:15%; background:#fff; padding:44px 70px 70px 70px; width:485px; 
+		@media ( max-width:$break_Mobilelarge ) { position:relative; top:0; right:0; width:90%; margin:-500px auto 0 auto; -webkit-box-shadow: 0px 2px 7px 0px rgba(50, 50, 50, 0.75);
+		-moz-box-shadow: 0px 2px 7px 0px rgba(50, 50, 50, 0.75); box-shadow: 0px 2px 7px 0px rgba(50, 50, 50, 0.75); }
+		@media ( max-width:$break_Mobilemedium ) { margin:-300px auto 0 auto; }
+		@media ( max-width:$break_Mobilesmall ) { padding:30px 15px 50px 15px; } 
+		
+		.info-logo { padding-bottom:40px; margin-bottom:48px; border-bottom:1px solid #d2d2d2; text-align:center; 
+		 @media ( max-width:$break_Mobilelarge ) { padding-bottom:20px; margin-bottom:20px; }
+			a { display:inline-block; }
+		}
+	}
+	
+	/* info slider ------------------------------- */
+	.info-slider { text-align:center;
+		.carousel-indicators { bottom:-30px; }
+		.carousel-indicators li { background-color:#bfbfbf !important; }
+		.carousel-indicators .active { background-color:#474747 !important; }
+		.carousel-caption { position:initial; left:0; right:0;
+			h2 { color:#3f3f3f; font-size:50px; font-weight:$font_weightlarge; padding-bottom:28px; text-transform:uppercase; }
+			h3 { color:#3f3f3f; font-size:30px; font-weight:300; padding-bottom:30px; }
+			p { color:$secondary_Color; font-size:16px; padding-bottom:40px; line-height:20px; }
+			a { @extend .main_button; display:inline-block; width:238px; line-height:42px; font-size:16px;
+				&:hover { @extend .buttons-hover; }
+			}
+		}
+	}
+}
+
+/* banners ends here --------------------------------- */
+
+
+/* events landing page starts ------------------------ */
+.events-page-outer { margin:78px 0 0 0;
+	.container { @media ( min-width:1245px ) { width:1235px; } }
+	
+	
+	/* main events feature starts ------------------------- */
+	.main-events-feature { margin-bottom:68px;
+	
+		.eventsfeature-title { @extend .col-sm-6;
+			h3 { color:#3f3f3f; font-size:30px; font-weight:300; line-height:44px; @extend .pull-left; text-transform:uppercase; 
+				@media ( max-width:$break_Small ) { font-size:21px; }
+				@media ( max-width:$break_Ipad ) { font-size:18px; }
+				@media ( max-width:$break_Mobilelarge ) { float:none !important; text-align:center; padding-bottom:30px; font-size:50px; }
+				@media ( max-width:$break_Mobilemedium ) { font-size:25px; }
+				
+			}
+			form {
+				@media ( max-width:$break_Mobilelarge ) { text-align:center; }
+				select { @extend .pull-right; width:238px; height:44px; background:url(../images/select-arrow.png)95% center no-repeat #c7d3d2; -webkit-appearance: none; -moz-appearance: none;
+    				appearance: none; border-radius:3px; padding:6px 20px; color:$secondary_Color; font-size:16px; text-transform:capitalize; font-weight:$font_weightlarge; border:0;
+					text-transform:uppercase; 
+					@media ( max-width:$break_Ipad ) { width:155px; }
+					@media ( max-width:$break_Mobilelarge ) { width:236px; float: none !important; font-size:20px; }
+					
+				}
+			}		
+		}		
+		
+		.events-feature-submit { @extend .col-sm-6;
+			@media ( max-width:$break_Mobilelarge ) { display:none; }
+			form {
+				input[type="submit"] { @extend .pull-right; color:$secondary_Color; font-size:16px; width:236px; line-height:44px; background-color:#c7d3d2; border-radius:3px;
+				 font-weight:$font_weightlarge; text-transform:uppercase; border:0; transition:all 300ms;
+				 @media ( max-width:$break_Mobilelarge ) { float:left !important; margin:20px 0 0 0; }
+					&:hover { @extend .buttons-hover; color:#fff; }
+				}
+			}
+		}
+		
+	}
+	/* main events feature ends ------------------------- */
+	
+	
+	/* events page detail starts here ---------------------- */
+	.events-page-detail {
+		@media ( max-width:$break_Mobilelarge ) { padding:0 58px; }
+		@media ( max-width:$break_Mobilemedium ) { padding:0; }
+		.eventspage-inner { margin-bottom:60px;
+			@media ( max-width:$break_Ipad ) { margin:0; }
+			
+			.eventspage-box { @extend .col-sm-6; @extend .col-md-3;
+				
+				@media ( max-width:$break_Ipad ) { margin-bottom:50px; }		
+				.eventspage-thumbnail { border:1px solid #c7d3d2; text-align:center; height:170px; margin-bottom:30px;
+					@media ( max-width:$break_Mobilelarge ) { height:260px; }
+					a { display:inline-block; width:100%; line-height:170px;
+						@media ( max-width:$break_Mobilelarge ) { line-height:260px; }
+					}
+				}
+			}
+			
+			.eventspage-boxdetail {
+				h4 { 
+					a { color:#e85628; font-size:20px; padding-bottom:18px; font-weight:$font_weightlarge; 
+						@media ( max-width:$break_Mobilelarge ) { font-size:30px; }
+						@media ( max-width:$break_Mobileextrasmall ) { font-size:24px; }
+					}
+				}
+				span { display:inline-block; width:172px; height:38px; background-color:#e9f1c3; padding:0 14px; box-sizing:border-box; margin:0 0 18px 0; font-size:16px; color:#3f3f3f;
+				text-transform:uppercase; line-height:38px; 
+					@media ( max-width:$break_Mobilelarge ) { font-size:20px; width:215px; }
+				}
+				p { color:$secondary_Color; font-size:16px; margin-bottom:25px; 
+					@media ( max-width:$break_Mobilelarge ) { display:none; }
+				}
+				a { display:inline-block; color:#e85628; font-size:16px; text-transform:capitalize; font-weight:$font_Weightmedium;
+					@media ( max-width:$break_Mobilelarge ) { display:none; } 
+					&:hover { color:#3f3f3f; }
+				}
+			}
+			
+			.featured-events-btns {
+				@media ( max-width:$break_Mobilelarge ) { text-align:center; }
+				a { display:inline-block; line-height:42px; background-color:#e85628; border-radius:3px; color:#fff; font-size:16px; padding:0 22px;
+					text-transform:uppercase; text-align:center; font-weight:$font_weightlarge; 
+					@media ( max-width:$break_Ipad ) { margin-bottom:60px; }					
+					@media ( max-width:$break_Mobilelarge ) { font-size:20px; margin-bottom:28px; width:315px; padding:0; }
+					@media ( max-width:$break_Mobileextrasmall ) { width:100%; font-size:17px; }
+					&:hover { background-color:#000; }
+				}
+				a.event-btn { display:none;
+					@media ( max-width:$break_Mobilelarge ) { display:block; background-color:#c7d3d2; color:$secondary_Color; font-size:20px; font-weight:$font_weightlarge;
+					border-radius:3px; display:inline-block; width:315px; }
+					@media ( max-width:$break_Mobileextrasmall ) { width:100%; font-size:17px; }
+					&:hover { background-color:#e85628; color:#fff; }
+				}
+			}
+		}	
+	}
+	/* events page detail ends here ----------------------------- */
+	
+	
+	/* event calender starts here ------------------------------- */
+	.event-calendar-outer { background-color:#c7d3d2; padding:90px 0 70px 0;	
+		@media ( max-width:$break_Mobilelarge ) { padding:135px 0 70px 0; }
+		@media ( max-width:$break_Mobilesmall ) { padding:70px 0; }
+		.container { @media ( min-width:1225px ) { width:1215px; } }
+		
+		.event-calendar-title { padding-bottom:100px;
+			@media ( max-width:$break_Mobilesmall ) { padding-bottom:80px; }
+		
+			.calendartitle-left { @extend .col-sm-9; margin:10px 0 0 0; 
+				h5 { color:$secondary_Color; font-size:30px; font-weight:300; text-transform:uppercase; @extend .pull-left; margin-right:60px; 
+					@media ( max-width:$break_Small ) { font-size:24px; margin-right:20px; }
+					@media ( max-width:$break_Mobilelarge ) { font-size:50px; text-align:center; }
+					@media ( max-width:$break_Mobilemedium ) { margin:0; }
+					@media ( max-width:$break_Mobilesmall ) { font-size:30px; }
+					
+				}
+				ul.calendar-list {
+					
+					@media ( max-width:$break_Ipad ) { display:inline-block; width:100%; margin:30px 0 50px 0; }
+					@media ( max-width:$break_Mobilelarge ) { text-align:center; margin-bottom:0; }
+					@media ( max-width:$break_Mobilesmall ) { margin:20px 0 0 0; }
+					
+					li { display:inline-block;
+						&:first-child {
+							@media ( max-width:$break_Mobilesmall ) { width:100%; }
+						}
+						label { color:$secondary_Color; font-size:16px; margin-right:10px; font-weight:$font_weightlarge; 
+							@media ( max-width:$break_Mobilelarge ) { font-size:20px; }
+						}
+						a { display:inline-block; color:$secondary_Color; font-size:14px; font-weight:$font_weightlarge; padding:9px 12px; line-height:17px; 
+						border-radius:3px; background-color:#adb7b6; text-align:center; 
+							&:hover { background-color:#fff; }
+							@media ( max-width:$break_Mobilelarge ) { font-size:20px; padding:10px 8px; }
+						}
+					}
+				}
+			}
+			
+			.calendartitle-submitbtn { @extend .col-sm-3;
+				form {
+					input[type="submit"] { @extend .pull-right; width:237px; line-height:42px; background-color:#fff; border-radius:3px; text-align:center; color:$secondary_Color; font-size:16px;
+						font-weight:$font_weightlarge; text-transform:uppercase; border:0; transition:all 300ms; 
+						@media ( max-width:$break_Small ) { width:100%; }
+						@media ( max-width:$break_Ipad ) { font-size:14px; }
+						@media ( max-width:$break_Mobilelarge ) { display:none; }
+							&:hover { background-color:#000; color:#fff; }
+						}
+				}
+			}
+			
+		}
+		
+		.events-calendar-detail { margin:0 0 70px 0; 
+			@media ( max-width:$break_Ipad ) { margin-bottom:20px; }
+			@media ( max-width:$break_Mobilelarge ) { margin:0 auto 20px auto; width:455px; }
+			@media ( max-width:$break_Mobilesmall ) { width:auto; }
+			&:last-child { margin:0; }
+			
+			.calendardetail-left { @extend .col-sm-6;
+				.calendardetail-row { margin-bottom:10px;
+					
+					@media ( max-width:$break_Ipad ) { margin-bottom:20px; }
+					
+					span.date { @extend .pull-left; color:#3f3f3f; font-size:16px; font-weight:$font_Weightmedium; width:88px; line-height:38px; 
+					background-color:#fff; text-align:center; margin-right:20px; }
+					h6 { @extend .pull-left; color:$secondary_Color; font-size:20px; line-height:38px; font-weight:$font_weightlarge; 
+						@media ( max-width:$break_Mobilesmall ) { line-height:22px; padding-top:5px; }
+						span { font-weight:400; font-size:16px; }
+					}
+				}
+			}		
+		}
+		
+		.view-calendar {
+			@media ( max-width:$break_Mobilelarge ) { text-align:center; }
+			a { display:inline-block; width:236px; background-color:#e85628; text-align:center; color:#fff; line-height:44px; border-radius:3px; text-transform:uppercase;
+				font-weight:$font_weightlarge;
+				@media ( max-width:$break_Mobilelarge ) { font-size:20px; }
+					
+				&:hover { background-color:#000; }
+			}
+			a.submitevent-btn { display:inline-block; width:236px; margin-top:20px; background-color:#fff; color:$secondary_Color; line-height:44px; border-radius:3px; display:none;
+				@media ( max-width:$break_Mobilelarge ) { display:block; display:inline-block; }
+				&:hover { background-color:#000; color:#fff; }
+			}
+		}	
+	
+	}
+	
+}

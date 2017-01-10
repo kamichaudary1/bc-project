@@ -1,0 +1,58 @@
+/* banner starts here ----------------- */
+.banner.advocacygroup-hero-img { position:relative;
+
+	/* page hero img ------------------------------ */
+	span.page-hero-img { display:block; background:url(../images/advocacygroup-hero-img.png) center center no-repeat; background-size:cover; height:462px; }
+	
+	
+	/* page hero caption ------------------------------------- */
+	span.page-hero-caption { position:absolute; top:0; width:100%; text-align:center; color:#fff; font-size:70px; font-weight:$font_weightlarge; line-height:55px; top:204px; 
+		@media ( max-width:$break_Ipad ) { font-size:50px; }
+		@media ( max-width:$break_Mobilemedium ) { font-size:42px; }
+		@media ( max-width:$break_Mobilesmall ) { font-size:32px; line-height:35px; }
+		@media ( max-width:$break_Mobileextrasmall ) { font-size:26px; }
+	}
+	
+	
+	/* banner overlay starts ---------------------- */
+	.banner-overlay { position:absolute; width:100%; height:100%; }
+}
+/* banner ends here ------------------------ */
+
+
+/* advocacy national detail starts here --------------------------- */
+.advocacy-nationlouter {
+	@media ( min-width:1245px ) { .container { width:1235px; } }
+	h2 { text-align:center; color:$secondary_Color; font-size:16px; padding:72px 0 75px 0; }
+	
+	/* advocacy detail starts here --------------------------------- */
+	.advocacy-detail {
+		.advocacydetail-row { border-bottom:1px solid #c7d3d2; margin-bottom:70px; padding-bottom:38px;
+			&:last-child { padding:0; border:0; margin-bottom:25px; 
+				@media ( max-width:$break_Mobilesmall ) { margin:0; }
+			}
+			
+			@media ( max-width:$break_Ipad ) { padding:0; margin:0; border:0; }
+			
+			.advocacydetail-box { @extend .col-sm-6; @extend .col-md-3;
+			
+				@media ( max-width:$break_Ipad ) { min-height:300px; }
+				@media ( max-width:$break_Mobilelarge ) { min-height:auto; margin-bottom:60px; }
+				
+				h3 { text-align:left; color:$secondary_Color; font-size:20px; font-weight:$font_weightlarge; padding:0 0 38px 0; line-height:28px; text-transform:uppercase; 
+					@media ( max-width:$break_Small ) { font-size:16px; line-height:22px; padding-bottom:25px; }
+					@media ( max-width:$break_Ipad ) { font-size:20px; line-height:28px; }
+				}
+				p { color:$secondary_Color; font-size:16px; line-height:22px; padding-bottom:25px; 
+					@media ( max-width:$break_Mobilelarge ) { padding-bottom:15px; }
+				}
+				a { color:#e85628; font-size:16px; font-weight:$font_Weightmedium; 
+					&:hover { color:$secondary_Color; }
+				}
+			}
+		}
+	}
+
+}
+/* advocacy national detail ends here ----------------------------- */
+

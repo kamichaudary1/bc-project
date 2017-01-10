@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,mBAAoB;EAAE,UAAU,EAAC,iBAAiB;EAAE,WAAW,EAAC,KAAK",
+"sources": ["../../sass/sass-files/event-detail-page.scss"],
+"names": [],
+"file": "event-detail-page.css"
+}

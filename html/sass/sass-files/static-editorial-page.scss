@@ -1,0 +1,62 @@
+/* banner starts here ------------------------- */
+.banner.editorial-hero-img {
+	span.page-hero-img { display:block; height:375px; background:url(../images/editorial-hero-img.png) center center no-repeat; background-size:cover; }
+
+	
+	/* page hero caption ------------------------------------- */
+	span.page-hero-caption { position:absolute; top:0; width:100%; text-align:center; color:#fff; font-size:70px; font-weight:$font_weightlarge; line-height:55px; top:154px; }
+}
+
+
+/* main editorial starts ------------------------------------ */
+.main-editorial {
+	.container { @media ( min-width:1020px ) { width:1000px; margin:135px auto 110px;  }}
+	
+	/* editorial detail starts here ------------------------------- */
+	.editorial-detail {
+		h2 { color:$secondary_Color; font-size:30px; font-weight:$font_weightlarge; padding-bottom:28px; text-transform:uppercase; }
+		p { color:$secondary_Color; font-size:16px; line-height:28px; padding-bottom:45px; }
+	}
+	
+	/* editorial thumbnail ------------------------------------ */
+	.editorial-thumbnail { margin-bottom:88px; 
+		img { width:100%; }
+	}
+	
+	/* editorial thumbnail2 ----------------------------------- */
+	.editorial-thumbnailinner { @extend .col-sm-6;
+		img { width:100%; }
+	}
+	
+	
+	/* editorial accordion ------------------------------------ */
+	.editorial-accordion { margin-bottom:118px;		
+		h3 { color:$secondary_Color; font-size:30px; font-weight:$font_weightlarge; text-transform:uppercase; margin-bottom:40px; }
+		
+		.panel-group .panel { border:0; border-bottom:1px solid #c7d3d2; box-shadow:none; }
+		.panel-default > .panel-heading { border:0; background-color:transparent; }
+		h4.panel-title a { color:$secondary_Color; font-size:16px; margin-bottom:22px; padding:0 0 0 20px; font-weight:$font_Weightmedium; cursor:pointer;
+			&:before { display:inline-block; content:''; background:url(../images/accordion-plusicon.png) left top no-repeat; width:18px; height:18px; padding-right:30px; }
+		}
+	}
+	
+	/* editorial detailbtm starts ---------------------------- */
+	.editorial-detailbtm {
+		.editorialbtm-inner { @extend .col-sm-6;
+			h4 { color:$secondary_Color; font-size:30px; font-weight:$font_weightlarge; text-transform:uppercase; padding-bottom:28px; }
+			p { color:$secondary_Color; font-size:16px; line-height:30px; padding-bottom:28px; }
+			a { display:inline-block; width:237px; line-height:43px; background-color:#e85628; border-radius:3px; text-align:center; color:#fff; font-size:16px; 
+				&:hover { background-color:#3f3f3f; }
+			}
+		}
+	}
+	
+}
+	
+.accordionactive { border:0 !important;
+	&:before {
+		display:inline-block; content:''; background:url(../images/accordion-minusicon.png) left center no-repeat !important; width:18px; height:4px !important; padding-right:75px; 
+	}
+}
+.bg { background-color:#eef2f1; padding:20px !important; }
+

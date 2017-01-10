@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oDAAoD;AAEnD,4CAAmB;EAAE,UAAU,EAAC,2DAA2D;EAAE,eAAe,EAAC,KAAK;EAAE,OAAO,EAAC,OAAO;;AAIpI,oDAAoD",
+"sources": ["../../sass/sass-files/blog-landing-page.scss"],
+"names": [],
+"file": "blog-landing-page.css"
+}

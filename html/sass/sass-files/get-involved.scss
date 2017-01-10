@@ -1,0 +1,68 @@
+/* banner starts here ----------------- */
+.banner.get-involved-hero-img { position:relative;
+
+	/* page hero img ------------------------------ */
+	span.page-hero-img { display:block; background:url(../images/getinvolved-hero-img.png) center center no-repeat; background-size:cover; height:375px; }
+	
+	
+	/* page hero caption ------------------------------------- */
+	span.page-hero-caption { position:absolute; top:0; width:100%; text-align:center; color:#fff; font-size:70px; font-weight:$font_weightlarge; line-height:55px; top:155px;
+	text-transform:uppercase; 
+		@media ( max-width:$break_Mobilemedium ) { font-size:55px; }
+		@media ( max-width:$break_Mobilesmall ) { font-size:30px; }
+	}
+	
+	
+	/* banner overlay starts ---------------------- */
+	.banner-overlay { position:absolute; width:100%; height:100%; }
+}
+
+/* banner ends here ------------------------ */
+
+/* slider css ------------------------------ */
+.getinvolved-slider { position:relative; line-height:0; 
+	.carousel-indicators li { background-color:rgba( 225, 220, 220, 0.5 ); border:1px solid #d9d4d8; }
+	.carousel-indicators li.active { background-color:#fff; border:1px solid #fff; }
+	.carousel-inner {
+		.item {
+			span.slideone { background:url(../images/getinvolved-slider1.png) center center no-repeat; background-size:cover; height:635px; display:inline-block; width:100%; 
+				@media ( max-width:$break_Mobilemedium ) { height:400px; }
+			}
+		}
+	}
+	.carousel-control.left, .carousel-control.right { top:45%; width:7%; background:transparent; 
+		@media ( max-width:$break_Mobilelarge ) { top:30%; }
+	}
+	.carousel-control:hover, .carousel-control:focus { opacity:1; }
+	.issue-section { position:absolute; width:485px; padding:0 70px; background-color:#fff; top:70px; right:20%; text-align:center;
+		@media ( max-width:$break_Large ) { right:10%; }
+		@media ( max-width:$break_Mobilelarge ) { width:90%; position:relative; top:0; right:0; margin:-200px auto 0 auto; z-index:99; }
+		@media ( max-width:$break_Mobilesmall ) { width:95%; padding:0 40px; }
+		 
+		h2 { color:#3f3f3f; font-size:30px; font-weight:300; padding:57px 0 45px 0; margin-bottom:35px; border-bottom:1px solid #d2d2d2; text-transform:uppercase; 
+			@media ( max-width:$break_Mobilesmall ){ font-size:24px; }
+		}
+		h3 { color:#3f3f3f; font-size:30px; font-weight:$font_weightlarge; line-height:38px; padding-bottom:25px; text-transform:uppercase; 
+			@media ( max-width:$break_Mobilesmall ) { font-size:22px; line-height:33px; }
+		}
+		p { color:$secondary_Color; font-size:16px; font-weight:$font_Weightmedium; line-height:23px; padding-bottom:40px; }
+		a { @extend .main_button; width:145px; font-size:16px; margin-bottom:55px; text-transform:uppercase; 
+			&:hover { @extend .buttons-hover; }
+		}
+	}
+}
+
+
+/* grid section starts ------------------------------- */
+.grid-section.getinvolved-grid .grid-one.page-grid-one span a .grid-detail  {
+	@media ( max-width:$break_Ipad ) { padding-top:32%; }
+	@media ( max-width:$break_Mobilelarge ) { padding-top:34%; }
+	@media ( max-width:$break_Mobilemedium ) { padding-top:28%; }
+	@media ( max-width:$break_Mobilesmall ) { padding-top:36%; }
+	
+	h3 { padding:0 20%; 
+		@media ( max-width:1300px ) { padding: 0 14%; }
+		@media ( max-width:$break_Mobilemedium ) { padding:0 20%; }
+		@media ( max-width:$break_Mobilesmall ) { padding:0 14%; }
+	}
+}

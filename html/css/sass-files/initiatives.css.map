@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACC,0BAAmB;EAAE,OAAO,EAAC,KAAK;EAAE,UAAU,EAAC,+DAA+D;EAAE,MAAM,EAAC,KAAK;EAAE,eAAe,EAAC,KAAK",
+"sources": ["../../sass/sass-files/initiatives.scss"],
+"names": [],
+"file": "initiatives.css"
+}
